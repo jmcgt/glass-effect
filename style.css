@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(blackwater-fray.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background: rgba(255, 255, 255, .1);
+    color: white;
+    border-radius: 8px;
+    backdrop-filter: blur(50px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .15);
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 100;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+p{
+    padding-bottom: 20px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
